@@ -1,3 +1,9 @@
+# Install zsh and make default shell
+1. sudo apt install zsh
+2. wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+3. cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+4. chsh -s $(which zsh)
+
 # Ubunly ZSH Theme 
 The **new Kali Linux** console adapted to Ubuntu (and maybe any distro)!
 
